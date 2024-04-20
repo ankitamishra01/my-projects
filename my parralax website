@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lan="eng">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+        <title>
+       My parallax website
+        </title>
+    </head>
+    <style>
+        .B{ margin: 0px;
+            padding: 0px;}
+           .parallax-1 {width: 100%;
+            height: 600px;
+            background-size: 100% 100%;
+            
+            background-attachment: fixed;
+       background: url(https://media.istockphoto.com/id/1340047332/vector/stem-education-of-kids-through-internet-on-laptop-children-study-engineering-professions.jpg?s=612x612&w=is&k=20&c=qjvlHPng4k3z9hHP_W-bIhxZaoGB0ZzYx1pMJb95GTg=);
+        }
+        .parallax-1 h2{
+            margin: auto;
+            position: relative;
+            left: 3%;
+            top: 300px;
+            width: 250px;
+            height: 32px;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            
+
+        }
+        
+        .parralax-2{
+            width: 100%;
+        height: 600px;
+        margin: 0px;
+        background: url(https://media.istockphoto.com/id/1146532466/photo/abstract-blue-digital-background.jpg?s=612x612&w=is&k=20&c=YEX-aeAXcTA6ps2inBAwBqAiXMPJIKY0t6Nv4IAlRD0=);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        animation: box 5s ease-in 1s unlimited forwards;
+
+        }
+        @keyframes box{
+
+        }
+        .parralax-2 h2{
+            margin: auto;
+            position: relative;
+            
+            top: 300px;
+
+           width: 250px;
+        height: 37px ;
+        padding: 10px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+        .para-1{
+            padding: 50px;
+            background-color: black;
+            color: white;
+            font-size: 17px;
+
+        }
+        .para-2{
+            text-align: center;
+            padding: 25px;
+            font-size: 17px;
+            background-color: black;
+            color: white;
+        }
+        .footer{
+            width: 100%;
+            height: 100px;
+            background-color: black;
+            text-align: center;
+
+        }
+        .footer{
+            width: 100%;
+            height: 60px;
+            background-color: black;
+            color: white;
+            padding: 20px;
+            font-size: 30px;
+
+        }
+    </style>
+
+<body class="B">
+    
+    <div class="parallax-1">
+        <h2>ANKITA MISHRA</h2>
+        
+    </div>
+
+<div class="para-1">
+<p>
+    Lorem ipsum dolor sit
+     amet consectetur adipisicing elit.
+      Perspiciatis nesciunt maiores sunt nisi,
+       fuga nam. Ratione commodi porro
+        possimus alias ut doloremque laboriosam 
+        nihil numquam praesentium necessitatibus 
+        est, consequuntur ullam?
+        Lorem ipsum dolor sit
+     amet consectetur adipisicing elit.
+      Perspiciatis nesciunt maiores sunt nisi,
+       fuga nam. Ratione commodi porro
+        possimus alias ut doloremque laboriosam 
+        nihil numquam praesentium necessitatibus 
+        est, consequuntur ullam?
+</p>
+</div>
+
+<div class="parralax-2">
+    <h2>Projects</h2>
+</div>
+<div class="para-2">
+    <p>
+Lorem ipsum dolor sit amet
+ consectetur, adipisicing elit.
+  Commodi mollitia ex vitae soluta?
+   Enim consequuntur hic id
+    necessitatibus sapiente ducimus? 
+    Nulla ratione sapiente odit magnam 
+    beatae quas illo dolor odio.
+    </p>
+</div>
+
+<div class="parallax-1">
+ <h2>Achivments</h2>
+</div>
+<div class="para-2">
+    <p>Lorem ipsum dolor,
+         sit amet consectetur 
+         adipisicing elit.
+          Voluptatem odit, rem maiores
+           similique, eum corrupti
+            temporibus praesentium, 
+            architecto qui minus ipsam.
+             Quam ea labore at atque! 
+             Eligendi cumque reprehenderit
+              non!</p>
+
+    </div>
+    <br>
+    <div class="footer">
+        Contact us for better Learning
+        <i class="fa-solid fa-phone"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
